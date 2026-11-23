@@ -2,6 +2,11 @@
 
 Custom tags for Mautic
 
+> **Agent BOB's fork, branch `7.x`:** the same code as upstream's last release, packaged
+> for Mautic 7 (`agent-bob-ai/mautic-custom-tags`, `mautic/core-lib ^7.0`, PHP 8.2+).
+> Upstream (`mtcextendee/mautic-custom-tags-bundle`) supports Mautic 4 and is no longer
+> maintained. Licence unchanged: GPL-3.0 (LICENSE).
+
 ## Installation
 
 ### Composer from Mautic root directory

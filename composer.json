@@ -1,12 +1,15 @@
 {
-  "name": "mtcextendee/mautic-custom-tags-bundle",
-  "description": "Custom tags for Mautic",
+  "name": "agent-bob-ai/mautic-custom-tags",
+  "description": "Custom tags for Mautic ({getremoteurl=…}, {base64decode=…}). Agent BOB's Mautic 7 fork of mtcextendee/mautic-custom-tags-bundle.",
   "type": "mautic-plugin",
-  "version": "1.3.1",
+  "license": "GPL-3.0-only",
   "keywords": ["mautic","plugin"],
+  "authors": [
+    {"name": "kuzmany.biz (mtcextendee)", "homepage": "https://github.com/mtcextendee/mautic-custom-tags-bundle"}
+  ],
   "require": {
-    "php": ">=7.4.0 <8.1",
-    "mautic/core-lib": "^4.0"
+    "php": "^8.2",
+    "mautic/core-lib": "^7.0"
   },
   "extra": {
     "install-directory-name": "MauticCustomTagsBundle"
